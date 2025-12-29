@@ -4,16 +4,12 @@
 
 I am a NeoVim user and software engineer.
 
-<br/>
-
 <!-- Summary Cards -->
 ![](https://raw.githubusercontent.com/yukimemi/yukimemi/main/profile-summary-card-output/onedark/0-profile-details.svg)
 ![](https://raw.githubusercontent.com/yukimemi/yukimemi/main/profile-summary-card-output/onedark/1-repos-per-language.svg)
 ![](https://raw.githubusercontent.com/yukimemi/yukimemi/main/profile-summary-card-output/onedark/2-most-commit-language.svg)
 ![](https://raw.githubusercontent.com/yukimemi/yukimemi/main/profile-summary-card-output/onedark/3-most-commit-contributions.svg)
 ![](https://raw.githubusercontent.com/yukimemi/yukimemi/main/profile-summary-card-output/onedark/4-productive-time.svg)
-
-<br/>
 
 ### 🐍 Activity
 
