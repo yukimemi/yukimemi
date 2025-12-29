@@ -6,8 +6,8 @@ I am a NeoVim user and software engineer.
 
 <br/>
 
-<!-- Trophies -->
-[![trophy](https://github-profile-trophy.vercel.app/?username=yukimemi&theme=flat&no-frame=true&no-bg=true&date=20251230)](https://github.com/ryo-ma/github-profile-trophy)
+<!-- Trophies (Hidden for now due to instability) -->
+<!-- [![trophy](https://github-profile-trophy.vercel.app/?username=yukimemi&theme=flat&no-frame=true&no-bg=true&date=20251230)](https://github.com/ryo-ma/github-profile-trophy) -->
 
 <br/>
 
@@ -21,8 +21,13 @@ I am a NeoVim user and software engineer.
 
 <br/>
 
-<!-- Streak -->
-[![GitHub Streak](https://streak-stats.demolab.com?user=yukimemi&theme=radical&date=20251230)](https://git.io/streak-stats)
+<!-- Streak (Hidden for now) -->
+<!-- [![GitHub Streak](https://streak-stats.demolab.com?user=yukimemi&theme=radical&date=20251230)](https://git.io/streak-stats) -->
+
+<!-- Summary Cards (Planned) -->
+<!-- ![](https://raw.githubusercontent.com/yukimemi/yukimemi/main/profile-summary-card-output/default/0-profile-details.svg) -->
+<!-- ![](https://raw.githubusercontent.com/yukimemi/yukimemi/main/profile-summary-card-output/default/1-repos-per-language.svg) -->
+<!-- ![](https://raw.githubusercontent.com/yukimemi/yukimemi/main/profile-summary-card-output/default/2-most-commit-language.svg) -->
 
 <br/>
 
