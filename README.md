@@ -7,7 +7,7 @@ I am a NeoVim user and software engineer.
 <br/>
 
 <!-- Trophies -->
-[![trophy](https://github-profile-trophy.vercel.app/?username=yukimemi&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
+[![trophy](https://github-profile-trophy.vercel.app/?username=yukimemi&theme=flat&no-frame=true&no-bg=true&date=20251230)](https://github.com/ryo-ma/github-profile-trophy)
 
 <br/>
 
@@ -22,7 +22,7 @@ I am a NeoVim user and software engineer.
 <br/>
 
 <!-- Streak -->
-[![GitHub Streak](https://streak-stats.demolab.com?user=yukimemi&theme=dark&hide_border=true&mode=weekly)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=yukimemi&theme=radical&date=20251230)](https://git.io/streak-stats)
 
 <br/>
 
