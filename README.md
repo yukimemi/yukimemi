@@ -8,9 +8,7 @@ I am a NeoVim user and software engineer.
 <br/>
 
 <!-- Trophies -->
-<a href="https://github.com/ryo-ma/github-profile-trophy">
-  <img src="https://github-profile-trophy.vercel.app/?username=yukimemi&theme=flat&no-frame=true&no-bg=true&margin-w=4" />
-</a>
+[![trophy](https://github-profile-trophy.vercel.app/?username=yukimemi&theme=flat&no-frame=true&no-bg=true)](https://github.com/ryo-ma/github-profile-trophy)
 
 <br/>
 
