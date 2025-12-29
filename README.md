@@ -23,9 +23,7 @@ I am a NeoVim user and software engineer.
 <br/>
 
 <!-- Streak -->
-<a href="https://git.io/streak-stats">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=yukimemi&theme=radical" />
-</a>
+[![GitHub Streak](https://streak-stats.demolab.com?user=yukimemi&theme=dark&hide_border=true&mode=weekly)](https://git.io/streak-stats)
 
 <br/>
 
