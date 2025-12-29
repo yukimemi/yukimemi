@@ -8,7 +8,8 @@ I am a NeoVim user and software engineer.
 <br/>
 
 <!-- Trophies -->
-[![trophy](https://github-profile-trophy.vercel.app/?username=yukimemi&theme=flat&no-frame=true&no-bg=true)](https://github.com/ryo-ma/github-profile-trophy)
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=yukimemi&theme=onedark)](https://github.com/yukimemi/github-profile-trophy)
 
 <br/>
 
