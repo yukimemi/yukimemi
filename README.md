@@ -1,6 +1,6 @@
 <div align="center">
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=300&section=header&text=Hello,%20World!&fontSize=90&animation=fadeIn&fontAlignY=38&desc=I%27m%20yukimemi&descAlignY=51&descAlign=62)
+![Header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=300&section=header&text=Welcome&fontSize=55&animation=fadeIn&fontAlignY=38&desc=I%27m%20yukimemi&descAlignY=51&descAlign=62)
 
 ### 🚀 About Me
 
