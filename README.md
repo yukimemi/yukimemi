@@ -1,4 +1,4 @@
-![Header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=300&section=header&text=Welcome&fontSize=55&animation=fadeIn&fontAlignY=38&desc=I%27m%20yukimemi&descAlignY=51&descAlign=62)
+![Header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=Welcome&fontSize=40&animation=fadeIn&fontAlignY=38&desc=I%27m%20yukimemi&descAlignY=51&descAlign=62)
 
 ### 🚀 About Me
 
@@ -14,6 +14,8 @@ I am a NeoVim user and software engineer.
 ![](https://raw.githubusercontent.com/yukimemi/yukimemi/main/profile-summary-card-output/onedark/4-productive-time.svg)
 
 <br/>
+
+### 🐍 Activity
 
 <!-- Snake Animation -->
 <picture>
