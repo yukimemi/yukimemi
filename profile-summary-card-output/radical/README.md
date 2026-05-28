@@ -52,3 +52,13 @@
 ```
 
     
+
+---
+
+![](./4-productive-time.svg)
+
+```
+![](https://raw.githubusercontent.com/yukimemi/yukimemi/main/profile-summary-card-output/radical/4-productive-time.svg)
+```
+
+    
