@@ -3,7 +3,7 @@ applied_at = "2026-08-17T03:33:48.357800993Z"
 
 [[templates]]
 source = "github.com/yukimemi/pj-base"
-rev = "1a7c2be1758fd01c875b3d503201145f64df42ea"
+rev = "27e4c1fe27ce44731a04bf0d55590fa6a0db27d4"
 version = "0.14.0"
 
 [files.".agents/skills/renri/SKILL.md"]
@@ -62,6 +62,7 @@ once_applied = true
 content_hash = "2ada1cf4347db9e98fadd67ca72cd9e29042c5bf6ab719d666b5d71f97663e81"
 
 [files."renovate.json"]
+content_hash = "ecfa9844f95f66e2a3f8a9fba7aefd8c76bf2b5b9ecdd9f9ad2f1205feda78d9"
 once_applied = true
 
 [files."renri.toml"]
