@@ -1,9 +1,9 @@
 preset = "github.com/yukimemi/pj-presets:base"
-applied_at = "2026-09-04T03:30:34.321975476Z"
+applied_at = "2026-09-14T03:34:31.13710726Z"
 
 [[templates]]
 source = "github.com/yukimemi/pj-base"
-rev = "08989f887002780557cb6e0ce18141d7abf2c85e"
+rev = "e5ad02c4f60ce83f12ffeb7537c5665367a50aa2"
 version = "0.18.0"
 
 [files.".agents/skills/renri/SKILL.md"]
@@ -41,7 +41,7 @@ content_hash = "8e573305bc9b45b40e4c4c24c0da7728771a12d81c4c1631d6e35f25a189cf84
 once_applied = true
 
 [files."AGENTS.md"]
-content_hash = "2988a5e92eb2a14278df912f889a4c7745e498701bec46c023aef3694dc20a31"
+content_hash = "9e8cd8066f9b022820f7e255671f8cba1d81c00a28a7caa96744d368b3b9036e"
 
 [files."CLAUDE.md"]
 content_hash = "a76b3af252969b8120128d7ce44f2b6cfdcf88c7420ee00675732f542d047529"
