@@ -160,7 +160,7 @@ for (const [name, p] of Object.entries(palettes)) {
   await Deno.writeTextFile(new URL(`assets/terminal-${name}.svg`, root), svg(p));
 }
 
-// ------------------------------------------------------------ README releases
+// ------------------------------------------------------------ README sections
 
 const releases = repos
   .filter((r) => r.latestRelease)
@@ -171,19 +171,44 @@ const releases = repos
     return `| [${r.name}](${r.url}) | [\`${rel.tagName}\`](${rel.url}) | ${rel.publishedAt.slice(0, 10)} |`;
   });
 
-const block = [
-  "<!-- releases:start -->",
-  "| Repo | Release | Date |",
-  "| --- | --- | --- |",
-  ...releases,
-  "<!-- releases:end -->",
-].join("\n");
+// Zenn is best-effort: on any failure keep the existing README section and still update releases.
+async function fetchArticles(): Promise<string[] | null> {
+  try {
+    const res = await fetch(`https://zenn.dev/${LOGIN}/feed`, { signal: AbortSignal.timeout(15_000) });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const rows = [...(await res.text()).matchAll(/<item>([\s\S]*?)<\/item>/g)].flatMap(([, item]) => {
+      const raw = item.match(/<title>(?:<!\[CDATA\[([\s\S]*?)\]\]>|([^<]*))<\/title>/);
+      const title = (raw?.[1] ?? raw?.[2]?.replace(/&lt;|&gt;|&quot;|&#39;|&amp;/g, (e) =>
+        ({ "&lt;": "<", "&gt;": ">", "&quot;": '"', "&#39;": "'", "&amp;": "&" })[e]!) ?? "").trim();
+      const link = item.match(/<link>([^<]+)<\/link>/)?.[1].trim() ?? "";
+      const date = new Date(item.match(/<pubDate>([^<]+)<\/pubDate>/)?.[1] ?? "");
+      if (!title || !link.startsWith("https://") || Number.isNaN(date.getTime())) return [];
+      return [`| [${title.replace(/[|[\]]/g, "\\$&")}](${link}) | ${date.toISOString().slice(0, 10)} |`];
+    }).slice(0, 5);
+    if (rows.length === 0) throw new Error("no articles parsed");
+    return rows;
+  } catch (e) {
+    console.warn(`zenn feed skipped, keeping existing section: ${e}`);
+    return null;
+  }
+}
+const articles = await fetchArticles();
+
+const sections: Record<string, string[]> = {
+  releases: ["| Repo | Release | Date |", "| --- | --- | --- |", ...releases],
+};
+if (articles) sections.zenn = ["| Article | Date |", "| --- | --- |", ...articles];
 
 const readmeUrl = new URL("README.md", root);
-const readme = await Deno.readTextFile(readmeUrl);
-const next = readme.replace(/<!-- releases:start -->[\s\S]*?<!-- releases:end -->/, () => block);
-if (next === readme && !readme.includes("<!-- releases:start -->")) {
-  throw new Error("README.md is missing the <!-- releases:start/end --> markers");
+let readme = await Deno.readTextFile(readmeUrl);
+for (const [name, rows] of Object.entries(sections)) {
+  const start = `<!-- ${name}:start -->`, end = `<!-- ${name}:end -->`;
+  if (!readme.includes(start) || !readme.includes(end)) {
+    throw new Error(`README.md is missing the ${start} / ${end} markers`);
+  }
+  readme = readme.replace(new RegExp(`${start}[\\s\\S]*?${end}`), () => [start, ...rows, end].join("\n"));
 }
-await Deno.writeTextFile(readmeUrl, next);
-console.log(`repos=${repos.length} stars=${stars} contributions=${contributions} releases=${releases.length}`);
+await Deno.writeTextFile(readmeUrl, readme);
+console.log(
+  `repos=${repos.length} stars=${stars} contributions=${contributions} releases=${releases.length} articles=${articles?.length ?? "kept"}`,
+);

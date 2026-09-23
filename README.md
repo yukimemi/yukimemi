@@ -30,6 +30,18 @@ Lately: jj-first workflows and tooling for running AI coding agents side by side
 | [silentsaver.nvim](https://github.com/yukimemi/silentsaver.nvim) | Silent, versioned file backups |
 | [lumiris.nvim](https://github.com/yukimemi/lumiris.nvim) | Colorscheme rotation that learns what you like |
 
+### 📝 Latest on [Zenn](https://zenn.dev/yukimemi)
+
+<!-- zenn:start -->
+| Article | Date |
+| --- | --- |
+| [Vim風操作と即時P2P同期を備えたローカルガントチャート yaiba](https://zenn.dev/yukimemi/articles/2026-08-08-yaiba) | 2026-08-08 |
+| [ライブ設定を直接編集、リポジトリが自動追従する dotfiles マネージャー yui](https://zenn.dev/yukimemi/articles/2026-06-13-yui) | 2026-06-13 |
+| [複数プロジェクトのテンプレを束ねる kata](https://zenn.dev/yukimemi/articles/2026-05-24-kata) | 2026-05-24 |
+| [ルールベースでファイルや URL を届ける Rust 製ディスパッチャ todoke を作った](https://zenn.dev/yukimemi/articles/2026-04-25-todoke) | 2026-04-25 |
+| [Rust 製の事前コンパイル型 Neovim プラグインマネージャー rvpm を作った](https://zenn.dev/yukimemi/articles/2026-04-19-rvpm) | 2026-04-19 |
+<!-- zenn:end -->
+
 ### 📦 Recent releases
 
 <!-- releases:start -->
