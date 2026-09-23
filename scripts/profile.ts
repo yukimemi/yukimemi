@@ -160,7 +160,7 @@ for (const [name, p] of Object.entries(palettes)) {
   await Deno.writeTextFile(new URL(`assets/terminal-${name}.svg`, root), svg(p));
 }
 
-// ------------------------------------------------------------ README releases
+// ------------------------------------------------------------ README sections
 
 const releases = repos
   .filter((r) => r.latestRelease)
@@ -171,19 +171,33 @@ const releases = repos
     return `| [${r.name}](${r.url}) | [\`${rel.tagName}\`](${rel.url}) | ${rel.publishedAt.slice(0, 10)} |`;
   });
 
-const block = [
-  "<!-- releases:start -->",
-  "| Repo | Release | Date |",
-  "| --- | --- | --- |",
-  ...releases,
-  "<!-- releases:end -->",
-].join("\n");
+const feedRes = await fetch(`https://zenn.dev/${LOGIN}/feed`);
+if (!feedRes.ok) throw new Error(`zenn feed: HTTP ${feedRes.status}`);
+const articles = [...(await feedRes.text()).matchAll(/<item>([\s\S]*?)<\/item>/g)]
+  .slice(0, 5)
+  .map(([, item]) => {
+    const title = item.match(/<title><!\[CDATA\[([\s\S]*?)\]\]><\/title>/)?.[1] ?? "";
+    const link = item.match(/<link>([^<]+)<\/link>/)?.[1] ?? "";
+    const date = new Date(item.match(/<pubDate>([^<]+)<\/pubDate>/)?.[1] ?? "").toISOString().slice(0, 10);
+    return `| [${title.replace(/[|[\]]/g, "\\$&")}](${link}) | ${date} |`;
+  });
+if (articles.length === 0) throw new Error("zenn feed: no articles parsed");
+
+const sections: Record<string, string[]> = {
+  releases: ["| Repo | Release | Date |", "| --- | --- | --- |", ...releases],
+  zenn: ["| Article | Date |", "| --- | --- |", ...articles],
+};
 
 const readmeUrl = new URL("README.md", root);
-const readme = await Deno.readTextFile(readmeUrl);
-const next = readme.replace(/<!-- releases:start -->[\s\S]*?<!-- releases:end -->/, () => block);
-if (next === readme && !readme.includes("<!-- releases:start -->")) {
-  throw new Error("README.md is missing the <!-- releases:start/end --> markers");
+let readme = await Deno.readTextFile(readmeUrl);
+for (const [name, rows] of Object.entries(sections)) {
+  const start = `<!-- ${name}:start -->`, end = `<!-- ${name}:end -->`;
+  if (!readme.includes(start) || !readme.includes(end)) {
+    throw new Error(`README.md is missing the ${start} / ${end} markers`);
+  }
+  readme = readme.replace(new RegExp(`${start}[\\s\\S]*?${end}`), () => [start, ...rows, end].join("\n"));
 }
-await Deno.writeTextFile(readmeUrl, next);
-console.log(`repos=${repos.length} stars=${stars} contributions=${contributions} releases=${releases.length}`);
+await Deno.writeTextFile(readmeUrl, readme);
+console.log(
+  `repos=${repos.length} stars=${stars} contributions=${contributions} releases=${releases.length} articles=${articles.length}`,
+);
