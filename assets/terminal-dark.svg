@@ -30,7 +30,7 @@
 <text x="36.8" y="242" clip-path="url(#c8)"><tspan fill="#c0caf5">jj log --since 1y | wc -l</tspan></text>
 
 </g>
-<text x="20" y="264" opacity="0"><tspan fill="#9ece6a">9200</tspan><tspan fill="#c0caf5"> contributions · 114 repos · 152 stars</tspan><set attributeName="opacity" to="1" begin="4.26s" fill="freeze"/></text>
+<text x="20" y="264" opacity="0"><tspan fill="#9ece6a">9203</tspan><tspan fill="#c0caf5"> contributions · 114 repos · 152 stars</tspan><set attributeName="opacity" to="1" begin="4.26s" fill="freeze"/></text>
 <g opacity="0"><set attributeName="opacity" to="1" begin="4.38s" fill="freeze"/>
 <text x="20" y="286" fill="#9ece6a">❯</text>
 <clipPath id="c10"><rect x="36.8" y="270" height="22" width="0">
