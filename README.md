@@ -47,8 +47,8 @@ Lately: jj-first workflows and tooling for running AI coding agents side by side
 <!-- releases:start -->
 | Repo | Release | Date |
 | --- | --- | --- |
+| [omp-deck](https://github.com/yukimemi/omp-deck) | [`v0.5.0`](https://github.com/yukimemi/omp-deck/releases/tag/v0.5.0) | 2026-09-24 |
 | [magi](https://github.com/yukimemi/magi) | [`v0.38.0`](https://github.com/yukimemi/magi/releases/tag/v0.38.0) | 2026-09-24 |
-| [omp-deck](https://github.com/yukimemi/omp-deck) | [`v0.4.0`](https://github.com/yukimemi/omp-deck/releases/tag/v0.4.0) | 2026-09-24 |
 | [shikigami](https://github.com/yukimemi/shikigami) | [`v0.10.0`](https://github.com/yukimemi/shikigami/releases/tag/v0.10.0) | 2026-09-24 |
 | [yui](https://github.com/yukimemi/yui) | [`v0.15.2`](https://github.com/yukimemi/yui/releases/tag/v0.15.2) | 2026-09-24 |
 | [renri](https://github.com/yukimemi/renri) | [`v0.5.0`](https://github.com/yukimemi/renri/releases/tag/v0.5.0) | 2026-09-23 |
