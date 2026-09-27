@@ -47,14 +47,14 @@ Lately: jj-first workflows and tooling for running AI coding agents side by side
 <!-- releases:start -->
 | Repo | Release | Date |
 | --- | --- | --- |
+| [shun](https://github.com/yukimemi/shun) | [`v5.5.5`](https://github.com/yukimemi/shun/releases/tag/v5.5.5) | 2026-09-27 |
+| [omp-deck](https://github.com/yukimemi/omp-deck) | [`v0.7.1`](https://github.com/yukimemi/omp-deck/releases/tag/v0.7.1) | 2026-09-27 |
+| [magi](https://github.com/yukimemi/magi) | [`v0.42.2`](https://github.com/yukimemi/magi/releases/tag/v0.42.2) | 2026-09-27 |
+| [shoka](https://github.com/yukimemi/shoka) | [`v0.23.1`](https://github.com/yukimemi/shoka/releases/tag/v0.23.1) | 2026-09-27 |
 | [rvpm](https://github.com/yukimemi/rvpm) | [`v3.52.0`](https://github.com/yukimemi/rvpm/releases/tag/v3.52.0) | 2026-09-26 |
-| [shun](https://github.com/yukimemi/shun) | [`v5.4.4`](https://github.com/yukimemi/shun/releases/tag/v5.4.4) | 2026-09-26 |
-| [magi](https://github.com/yukimemi/magi) | [`v0.41.1`](https://github.com/yukimemi/magi/releases/tag/v0.41.1) | 2026-09-26 |
-| [omp-deck](https://github.com/yukimemi/omp-deck) | [`v0.6.0`](https://github.com/yukimemi/omp-deck/releases/tag/v0.6.0) | 2026-09-25 |
 | [shikigami](https://github.com/yukimemi/shikigami) | [`v0.10.0`](https://github.com/yukimemi/shikigami/releases/tag/v0.10.0) | 2026-09-24 |
 | [yui](https://github.com/yukimemi/yui) | [`v0.15.2`](https://github.com/yukimemi/yui/releases/tag/v0.15.2) | 2026-09-24 |
 | [renri](https://github.com/yukimemi/renri) | [`v0.5.0`](https://github.com/yukimemi/renri/releases/tag/v0.5.0) | 2026-09-23 |
-| [kagi](https://github.com/yukimemi/kagi) | [`v0.6.1`](https://github.com/yukimemi/kagi/releases/tag/v0.6.1) | 2026-09-23 |
 <!-- releases:end -->
 
 ### 🐍 Activity
