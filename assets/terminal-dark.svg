@@ -18,11 +18,11 @@
 <text x="36.8" y="110" clip-path="url(#c2)"><tspan fill="#c0caf5">shoka list --sort stars | head -5</tspan></text>
 
 </g>
-<text x="20" y="132" opacity="0"><tspan fill="#e0af68">★ 24</tspan><tspan x="87.2" fill="#7aa2f7">dvpm</tspan><tspan x="221.60000000000002" fill="#565f89">TypeScript</tspan><set attributeName="opacity" to="1" begin="2.49s" fill="freeze"/></text>
-<text x="20" y="154" opacity="0"><tspan fill="#e0af68">★ 14</tspan><tspan x="87.2" fill="#7aa2f7">dotfiles</tspan><tspan x="221.60000000000002" fill="#565f89">TypeScript</tspan><set attributeName="opacity" to="1" begin="2.61s" fill="freeze"/></text>
-<text x="20" y="176" opacity="0"><tspan fill="#e0af68">★ 12</tspan><tspan x="87.2" fill="#7aa2f7">rvpm</tspan><tspan x="221.60000000000002" fill="#565f89">Rust</tspan><set attributeName="opacity" to="1" begin="2.73s" fill="freeze"/></text>
-<text x="20" y="198" opacity="0"><tspan fill="#e0af68">★ 11</tspan><tspan x="87.2" fill="#7aa2f7">yui</tspan><tspan x="221.60000000000002" fill="#565f89">Rust</tspan><set attributeName="opacity" to="1" begin="2.85s" fill="freeze"/></text>
-<text x="20" y="220" opacity="0"><tspan fill="#e0af68">★ 7</tspan><tspan x="87.2" fill="#7aa2f7">autocursor.vim</tspan><tspan x="221.60000000000002" fill="#565f89">TypeScript</tspan><set attributeName="opacity" to="1" begin="2.97s" fill="freeze"/></text>
+<text x="20" y="132" opacity="0"><tspan fill="#e0af68">★ 24</tspan><tspan x="87.2" fill="#7aa2f7">dvpm</tspan><tspan x="171.20000000000002" fill="#565f89">TypeScript</tspan><set attributeName="opacity" to="1" begin="2.49s" fill="freeze"/></text>
+<text x="20" y="154" opacity="0"><tspan fill="#e0af68">★ 14</tspan><tspan x="87.2" fill="#7aa2f7">dotfiles</tspan><tspan x="171.20000000000002" fill="#565f89">TypeScript</tspan><set attributeName="opacity" to="1" begin="2.61s" fill="freeze"/></text>
+<text x="20" y="176" opacity="0"><tspan fill="#e0af68">★ 12</tspan><tspan x="87.2" fill="#7aa2f7">rvpm</tspan><tspan x="171.20000000000002" fill="#565f89">Rust</tspan><set attributeName="opacity" to="1" begin="2.73s" fill="freeze"/></text>
+<text x="20" y="198" opacity="0"><tspan fill="#e0af68">★ 12</tspan><tspan x="87.2" fill="#7aa2f7">yui</tspan><tspan x="171.20000000000002" fill="#565f89">Rust</tspan><set attributeName="opacity" to="1" begin="2.85s" fill="freeze"/></text>
+<text x="20" y="220" opacity="0"><tspan fill="#e0af68">★ 8</tspan><tspan x="87.2" fill="#7aa2f7">shun</tspan><tspan x="171.20000000000002" fill="#565f89">Rust</tspan><set attributeName="opacity" to="1" begin="2.97s" fill="freeze"/></text>
 <g opacity="0"><set attributeName="opacity" to="1" begin="3.09s" fill="freeze"/>
 <text x="20" y="242" fill="#9ece6a">❯</text>
 <clipPath id="c8"><rect x="36.8" y="226" height="22" width="0">
@@ -30,7 +30,7 @@
 <text x="36.8" y="242" clip-path="url(#c8)"><tspan fill="#c0caf5">jj log --since 1y | wc -l</tspan></text>
 
 </g>
-<text x="20" y="264" opacity="0"><tspan fill="#9ece6a">9564</tspan><tspan fill="#c0caf5"> contributions · 115 repos · 153 stars</tspan><set attributeName="opacity" to="1" begin="4.26s" fill="freeze"/></text>
+<text x="20" y="264" opacity="0"><tspan fill="#9ece6a">9645</tspan><tspan fill="#c0caf5"> contributions · 115 repos · 155 stars</tspan><set attributeName="opacity" to="1" begin="4.26s" fill="freeze"/></text>
 <g opacity="0"><set attributeName="opacity" to="1" begin="4.38s" fill="freeze"/>
 <text x="20" y="286" fill="#9ece6a">❯</text>
 <clipPath id="c10"><rect x="36.8" y="270" height="22" width="0">
