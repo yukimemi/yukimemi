@@ -11,14 +11,14 @@ Lately: jj-first workflows and tooling for running AI coding agents side by side
 
 | | Project | What it does |
 | --- | --- | --- |
-| 🌿 | [renri](https://github.com/yukimemi/renri) | Unified manager for git worktrees and jj workspaces |
-| 🧠 | [magi](https://github.com/yukimemi/magi) | Blind multi-agent implementation competition + review gate |
-| 🧩 | [kata](https://github.com/yukimemi/kata) | Multi-project template applier with AI-delegated merge |
-| 📚 | [shoka](https://github.com/yukimemi/shoka) | jj-aware, TUI-first repository workspace manager |
-| 👺 | [shikigami](https://github.com/yukimemi/shikigami) | Terminal UI for Jujutsu |
-| 🏠 | [yui](https://github.com/yukimemi/yui) | Target-as-truth dotfiles manager |
-| 🚀 | [shun](https://github.com/yukimemi/shun) | Minimal keyboard-driven launcher |
-| ⌨️ | [kagi](https://github.com/yukimemi/kagi) | Cross-platform key mapper with IME control |
+| <img src="https://raw.githubusercontent.com/yukimemi/magi/main/assets/icon.svg" alt="magi" width="20" height="20"> | [magi](https://github.com/yukimemi/magi) | Blind multi-agent implementation competition + review gate |
+| <img src="https://raw.githubusercontent.com/yukimemi/renri/main/assets/icon.svg" alt="renri" width="20" height="20"> | [renri](https://github.com/yukimemi/renri) | Unified manager for git worktrees and jj workspaces |
+| <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yukimemi/kata/main/assets/icon-dark.svg"><img src="https://raw.githubusercontent.com/yukimemi/kata/main/assets/icon.svg" alt="kata" width="20" height="20"></picture> | [kata](https://github.com/yukimemi/kata) | Multi-project template applier with AI-delegated merge |
+| <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yukimemi/shoka/main/assets/icon-dark.svg"><img src="https://raw.githubusercontent.com/yukimemi/shoka/main/assets/icon.svg" alt="shoka" width="20" height="20"></picture> | [shoka](https://github.com/yukimemi/shoka) | jj-aware, TUI-first repository workspace manager |
+| <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yukimemi/shikigami/main/assets/icon-dark.svg"><img src="https://raw.githubusercontent.com/yukimemi/shikigami/main/assets/icon.svg" alt="shikigami" width="20" height="20"></picture> | [shikigami](https://github.com/yukimemi/shikigami) | Terminal UI for Jujutsu |
+| <img src="https://raw.githubusercontent.com/yukimemi/yui/main/assets/icon.svg" alt="yui" width="20" height="20"> | [yui](https://github.com/yukimemi/yui) | Target-as-truth dotfiles manager |
+| <img src="https://raw.githubusercontent.com/yukimemi/shun/main/docs/icon.svg" alt="shun" width="20" height="20"> | [shun](https://github.com/yukimemi/shun) | Minimal keyboard-driven launcher |
+| <img src="https://raw.githubusercontent.com/yukimemi/kagi/main/assets/icon.svg" alt="kagi" width="20" height="20"> | [kagi](https://github.com/yukimemi/kagi) | Cross-platform key mapper with IME control |
 
 ### 🌙 Neovim
 
