@@ -47,14 +47,14 @@ Lately: jj-first workflows and tooling for running AI coding agents side by side
 <!-- releases:start -->
 | Repo | Release | Date |
 | --- | --- | --- |
-| [magi](https://github.com/yukimemi/magi) | [`v0.65.1`](https://github.com/yukimemi/magi/releases/tag/v0.65.1) | 2026-10-03 |
-| [omp-deck](https://github.com/yukimemi/omp-deck) | [`v0.12.0`](https://github.com/yukimemi/omp-deck/releases/tag/v0.12.0) | 2026-10-03 |
-| [shikigami](https://github.com/yukimemi/shikigami) | [`v0.11.0`](https://github.com/yukimemi/shikigami/releases/tag/v0.11.0) | 2026-09-29 |
+| [magi](https://github.com/yukimemi/magi) | [`v0.74.0`](https://github.com/yukimemi/magi/releases/tag/v0.74.0) | 2026-10-04 |
+| [shikigami](https://github.com/yukimemi/shikigami) | [`v0.12.0`](https://github.com/yukimemi/shikigami/releases/tag/v0.12.0) | 2026-10-04 |
+| [shoka](https://github.com/yukimemi/shoka) | [`v0.24.0`](https://github.com/yukimemi/shoka/releases/tag/v0.24.0) | 2026-10-04 |
+| [omp-deck](https://github.com/yukimemi/omp-deck) | [`v0.13.0`](https://github.com/yukimemi/omp-deck/releases/tag/v0.13.0) | 2026-10-04 |
+| [yui](https://github.com/yukimemi/yui) | [`v0.15.3`](https://github.com/yukimemi/yui/releases/tag/v0.15.3) | 2026-10-04 |
+| [todoke](https://github.com/yukimemi/todoke) | [`v2.4.1`](https://github.com/yukimemi/todoke/releases/tag/v2.4.1) | 2026-10-04 |
 | [shun](https://github.com/yukimemi/shun) | [`v5.5.5`](https://github.com/yukimemi/shun/releases/tag/v5.5.5) | 2026-09-27 |
-| [shoka](https://github.com/yukimemi/shoka) | [`v0.23.1`](https://github.com/yukimemi/shoka/releases/tag/v0.23.1) | 2026-09-27 |
 | [rvpm](https://github.com/yukimemi/rvpm) | [`v3.52.0`](https://github.com/yukimemi/rvpm/releases/tag/v3.52.0) | 2026-09-26 |
-| [yui](https://github.com/yukimemi/yui) | [`v0.15.2`](https://github.com/yukimemi/yui/releases/tag/v0.15.2) | 2026-09-24 |
-| [renri](https://github.com/yukimemi/renri) | [`v0.5.0`](https://github.com/yukimemi/renri/releases/tag/v0.5.0) | 2026-09-23 |
 <!-- releases:end -->
 
 ### 🐍 Activity
