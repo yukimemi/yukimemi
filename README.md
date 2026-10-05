@@ -19,6 +19,7 @@ Lately: jj-first workflows and tooling for running AI coding agents side by side
 | <img src="https://raw.githubusercontent.com/yukimemi/yui/main/assets/icon.svg" alt="yui" width="20" height="20"> | [yui](https://github.com/yukimemi/yui) | Target-as-truth dotfiles manager |
 | <img src="https://raw.githubusercontent.com/yukimemi/shun/main/docs/icon.svg" alt="shun" width="20" height="20"> | [shun](https://github.com/yukimemi/shun) | Minimal keyboard-driven launcher |
 | <img src="https://raw.githubusercontent.com/yukimemi/kagi/main/assets/icon.svg" alt="kagi" width="20" height="20"> | [kagi](https://github.com/yukimemi/kagi) | Cross-platform key mapper with IME control |
+| <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yukimemi/yaiba/main/assets/icon-dark.svg"><img src="https://raw.githubusercontent.com/yukimemi/yaiba/main/assets/icon.svg" alt="yaiba" width="20" height="20"></picture> | [yaiba](https://github.com/yukimemi/yaiba) | Vim-flavoured todo & gantt planner with peer-to-peer sync |
 
 ### 🌙 Neovim
 
