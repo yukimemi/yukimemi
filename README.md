@@ -48,9 +48,9 @@ Lately: jj-first workflows and tooling for running AI coding agents side by side
 <!-- releases:start -->
 | Repo | Release | Date |
 | --- | --- | --- |
-| [magi](https://github.com/yukimemi/magi) | [`v0.74.0`](https://github.com/yukimemi/magi/releases/tag/v0.74.0) | 2026-10-04 |
-| [shikigami](https://github.com/yukimemi/shikigami) | [`v0.12.0`](https://github.com/yukimemi/shikigami/releases/tag/v0.12.0) | 2026-10-04 |
-| [shoka](https://github.com/yukimemi/shoka) | [`v0.24.0`](https://github.com/yukimemi/shoka/releases/tag/v0.24.0) | 2026-10-04 |
+| [magi](https://github.com/yukimemi/magi) | [`v0.80.0`](https://github.com/yukimemi/magi/releases/tag/v0.80.0) | 2026-10-05 |
+| [shoka](https://github.com/yukimemi/shoka) | [`v0.25.0`](https://github.com/yukimemi/shoka/releases/tag/v0.25.0) | 2026-10-05 |
+| [shikigami](https://github.com/yukimemi/shikigami) | [`v0.13.0`](https://github.com/yukimemi/shikigami/releases/tag/v0.13.0) | 2026-10-05 |
 | [omp-deck](https://github.com/yukimemi/omp-deck) | [`v0.13.0`](https://github.com/yukimemi/omp-deck/releases/tag/v0.13.0) | 2026-10-04 |
 | [yui](https://github.com/yukimemi/yui) | [`v0.15.3`](https://github.com/yukimemi/yui/releases/tag/v0.15.3) | 2026-10-04 |
 | [todoke](https://github.com/yukimemi/todoke) | [`v2.4.1`](https://github.com/yukimemi/todoke/releases/tag/v2.4.1) | 2026-10-04 |
