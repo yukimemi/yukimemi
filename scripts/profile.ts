@@ -1,10 +1,12 @@
 // Regenerates the profile: terminal-style header SVGs (dark/light) and the
 // "Recent releases" block of README.md. Run by .github/workflows/profile.yml.
 //
-//   GITHUB_TOKEN=... deno run -A scripts/profile.ts
+//   GITHUB_TOKEN=... bun run scripts/profile.ts
 
-const LOGIN = Deno.env.get("PROFILE_LOGIN") ?? "yukimemi";
-const TOKEN = Deno.env.get("GITHUB_TOKEN") ?? Deno.env.get("GH_TOKEN");
+import { mkdir, readFile, writeFile } from "node:fs/promises";
+
+const LOGIN = process.env.PROFILE_LOGIN ?? "yukimemi";
+const TOKEN = process.env.GITHUB_TOKEN ?? process.env.GH_TOKEN;
 if (!TOKEN) throw new Error("GITHUB_TOKEN (or GH_TOKEN) is required");
 
 const root = new URL("../", import.meta.url);
@@ -155,9 +157,9 @@ ${body.join("\n")}
 `;
 }
 
-await Deno.mkdir(new URL("assets/", root), { recursive: true });
+await mkdir(new URL("assets/", root), { recursive: true });
 for (const [name, p] of Object.entries(palettes)) {
-  await Deno.writeTextFile(new URL(`assets/terminal-${name}.svg`, root), svg(p));
+  await writeFile(new URL(`assets/terminal-${name}.svg`, root), svg(p));
 }
 
 // ------------------------------------------------------------ README sections
@@ -200,7 +202,7 @@ const sections: Record<string, string[]> = {
 if (articles) sections.zenn = ["| Article | Date |", "| --- | --- |", ...articles];
 
 const readmeUrl = new URL("README.md", root);
-let readme = await Deno.readTextFile(readmeUrl);
+let readme = await readFile(readmeUrl, "utf8");
 for (const [name, rows] of Object.entries(sections)) {
   const start = `<!-- ${name}:start -->`, end = `<!-- ${name}:end -->`;
   if (!readme.includes(start) || !readme.includes(end)) {
@@ -208,7 +210,7 @@ for (const [name, rows] of Object.entries(sections)) {
   }
   readme = readme.replace(new RegExp(`${start}[\\s\\S]*?${end}`), () => [start, ...rows, end].join("\n"));
 }
-await Deno.writeTextFile(readmeUrl, readme);
+await writeFile(readmeUrl, readme);
 console.log(
   `repos=${repos.length} stars=${stars} contributions=${contributions} releases=${releases.length} articles=${articles?.length ?? "kept"}`,
 );
