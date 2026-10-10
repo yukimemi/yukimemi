@@ -9,6 +9,21 @@ const LOGIN = process.env.PROFILE_LOGIN ?? "yukimemi";
 const TOKEN = process.env.GITHUB_TOKEN ?? process.env.GH_TOKEN;
 if (!TOKEN) throw new Error("GITHUB_TOKEN (or GH_TOKEN) is required");
 
+// denops-based projects are being retired; keep them out of the header ranking and counts.
+const EXCLUDE = new Set([
+  "dvpm",
+  "autocursor.vim",
+  "ahdr.vim",
+  "asyncwalker.vim",
+  "asyncsearcher.vim",
+  "chronicle.vim",
+  "lumiris.vim",
+  "autoreplacer.vim",
+  "silentsaver.vim",
+  "ddu-source-chronicle",
+  "fall-source-chronicle",
+]);
+
 const root = new URL("../", import.meta.url);
 
 type Repo = {
@@ -57,7 +72,8 @@ for (let cursor: string | null = null;;) {
   cursor = user.repositories.pageInfo.endCursor;
 }
 repos.sort((a, b) => b.stargazerCount - a.stargazerCount);
-const stars = repos.reduce((n, r) => n + r.stargazerCount, 0);
+const headerRepos = repos.filter((r) => !EXCLUDE.has(r.name));
+const stars = headerRepos.reduce((n, r) => n + r.stargazerCount, 0);
 
 // ---------------------------------------------------------------- header SVG
 
@@ -80,7 +96,7 @@ const palettes: Record<"dark" | "light", Palette> = {
   },
 };
 
-const top = repos.slice(0, 5);
+const top = headerRepos.slice(0, 5);
 const langCol = 8 + Math.max(...top.map((r) => r.name.length)) + 2;
 const lines: Line[] = [
   { kind: "cmd", segs: [{ text: "whoami", color: "fg" }] },
@@ -105,7 +121,7 @@ const lines: Line[] = [
     kind: "out",
     segs: [
       { text: `${contributions}`, color: "green" },
-      { text: ` contributions · ${repos.length} repos · ${stars} stars`, color: "fg" },
+      { text: ` contributions · ${headerRepos.length} repos · ${stars} stars`, color: "fg" },
     ],
   },
   { kind: "cmd", segs: [] },
@@ -212,5 +228,5 @@ for (const [name, rows] of Object.entries(sections)) {
 }
 await writeFile(readmeUrl, readme);
 console.log(
-  `repos=${repos.length} stars=${stars} contributions=${contributions} releases=${releases.length} articles=${articles?.length ?? "kept"}`,
+  `repos=${headerRepos.length} stars=${stars} contributions=${contributions} releases=${releases.length} articles=${articles?.length ?? "kept"}`,
 );
