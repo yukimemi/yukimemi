@@ -4,7 +4,7 @@
   <img alt="yukimemi terminal" src="./assets/terminal-dark.svg">
 </picture>
 
-Neovim user. I build small, sharp dev tools — mostly in **Rust**, plus **TypeScript** (Deno / denops) and **Lua**.
+Neovim user. I build small, sharp dev tools — mostly in **Rust**, plus **TypeScript** and **Lua**.
 Lately: jj-first workflows and tooling for running AI coding agents side by side.
 
 ### 🛠 Tools
@@ -19,6 +19,7 @@ Lately: jj-first workflows and tooling for running AI coding agents side by side
 | <img src="https://raw.githubusercontent.com/yukimemi/yui/main/assets/icon.svg" alt="yui" width="20" height="20"> | [yui](https://github.com/yukimemi/yui) | Target-as-truth dotfiles manager |
 | <img src="https://raw.githubusercontent.com/yukimemi/shun/main/docs/icon.svg" alt="shun" width="20" height="20"> | [shun](https://github.com/yukimemi/shun) | Minimal keyboard-driven launcher |
 | <img src="https://raw.githubusercontent.com/yukimemi/kagi/main/assets/icon.svg" alt="kagi" width="20" height="20"> | [kagi](https://github.com/yukimemi/kagi) | Cross-platform key mapper with IME control |
+| <img src="https://raw.githubusercontent.com/yukimemi/todoke/main/assets/icon.svg" alt="todoke" width="20" height="20"> | [todoke](https://github.com/yukimemi/todoke) | Rule-driven file and URL dispatcher |
 | <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yukimemi/yaiba/main/assets/icon-dark.svg"><img src="https://raw.githubusercontent.com/yukimemi/yaiba/main/assets/icon.svg" alt="yaiba" width="20" height="20"></picture> | [yaiba](https://github.com/yukimemi/yaiba) | Vim-flavoured todo & gantt planner with peer-to-peer sync |
 
 ### 🌙 Neovim
@@ -26,7 +27,7 @@ Lately: jj-first workflows and tooling for running AI coding agents side by side
 | Project | What it does |
 | --- | --- |
 | [rvpm](https://github.com/yukimemi/rvpm) | Fast plugin manager with a pre-compiled loader |
-| [dvpm](https://github.com/yukimemi/dvpm) | Denops plugin manager |
+| [rvpm.nvim](https://github.com/yukimemi/rvpm.nvim) | Neovim helper plugin for rvpm: :Rvpm dispatcher, completion, healthcheck |
 | [shikigami.nvim](https://github.com/yukimemi/shikigami.nvim) | Neovim front end for the shikigami jj TUI |
 | [silentsaver.nvim](https://github.com/yukimemi/silentsaver.nvim) | Silent, versioned file backups |
 | [lumiris.nvim](https://github.com/yukimemi/lumiris.nvim) | Colorscheme rotation that learns what you like |
