@@ -37,11 +37,11 @@ Lately: jj-first workflows and tooling for running AI coding agents side by side
 <!-- zenn:start -->
 | Article | Date |
 | --- | --- |
+| [Chat で頼んで、設計からリリースまでつなぐ magi](https://zenn.dev/yukimemi/articles/2026-10-10-magi) | 2026-10-11 |
 | [Vim風操作と即時P2P同期を備えたローカルガントチャート yaiba](https://zenn.dev/yukimemi/articles/2026-08-08-yaiba) | 2026-08-08 |
 | [ライブ設定を直接編集、リポジトリが自動追従する dotfiles マネージャー yui](https://zenn.dev/yukimemi/articles/2026-06-13-yui) | 2026-06-13 |
 | [複数プロジェクトのテンプレを束ねる kata](https://zenn.dev/yukimemi/articles/2026-05-24-kata) | 2026-05-24 |
 | [ルールベースでファイルや URL を届ける Rust 製ディスパッチャ todoke を作った](https://zenn.dev/yukimemi/articles/2026-04-25-todoke) | 2026-04-25 |
-| [Rust 製の事前コンパイル型 Neovim プラグインマネージャー rvpm を作った](https://zenn.dev/yukimemi/articles/2026-04-19-rvpm) | 2026-04-19 |
 <!-- zenn:end -->
 
 ### 📦 Recent releases
@@ -49,10 +49,10 @@ Lately: jj-first workflows and tooling for running AI coding agents side by side
 <!-- releases:start -->
 | Repo | Release | Date |
 | --- | --- | --- |
-| [magi](https://github.com/yukimemi/magi) | [`v0.114.0`](https://github.com/yukimemi/magi/releases/tag/v0.114.0) | 2026-10-10 |
+| [magi](https://github.com/yukimemi/magi) | [`v0.124.2`](https://github.com/yukimemi/magi/releases/tag/v0.124.2) | 2026-10-11 |
+| [shoka](https://github.com/yukimemi/shoka) | [`v0.26.0`](https://github.com/yukimemi/shoka/releases/tag/v0.26.0) | 2026-10-10 |
 | [kata](https://github.com/yukimemi/kata) | [`v0.18.0`](https://github.com/yukimemi/kata/releases/tag/v0.18.0) | 2026-10-08 |
 | [yui](https://github.com/yukimemi/yui) | [`v0.15.4`](https://github.com/yukimemi/yui/releases/tag/v0.15.4) | 2026-10-07 |
-| [shoka](https://github.com/yukimemi/shoka) | [`v0.25.0`](https://github.com/yukimemi/shoka/releases/tag/v0.25.0) | 2026-10-05 |
 | [shikigami](https://github.com/yukimemi/shikigami) | [`v0.13.0`](https://github.com/yukimemi/shikigami/releases/tag/v0.13.0) | 2026-10-05 |
 | [omp-deck](https://github.com/yukimemi/omp-deck) | [`v0.13.0`](https://github.com/yukimemi/omp-deck/releases/tag/v0.13.0) | 2026-10-04 |
 | [todoke](https://github.com/yukimemi/todoke) | [`v2.4.1`](https://github.com/yukimemi/todoke/releases/tag/v2.4.1) | 2026-10-04 |
