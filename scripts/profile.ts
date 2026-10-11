@@ -96,7 +96,14 @@ const palettes: Record<"dark" | "light", Palette> = {
   },
 };
 
-const top = headerRepos.slice(0, 5);
+// Curate only the demo ranking; keep all headerRepos in the aggregate counts.
+const top = headerRepos
+  .filter((r) => r.name !== "gsr")
+  .sort((a, b) =>
+    b.stargazerCount - a.stargazerCount ||
+    Number(b.name === "shoka") - Number(a.name === "shoka")
+  )
+  .slice(0, 5);
 const langCol = 8 + Math.max(...top.map((r) => r.name.length)) + 2;
 const lines: Line[] = [
   { kind: "cmd", segs: [{ text: "whoami", color: "fg" }] },
