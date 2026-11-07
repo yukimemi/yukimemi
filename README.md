@@ -49,7 +49,7 @@ Lately: jj-first workflows and tooling for running AI coding agents side by side
 <!-- releases:start -->
 | Repo | Release | Date |
 | --- | --- | --- |
-| [magi](https://github.com/yukimemi/magi) | [`v0.222.1`](https://github.com/yukimemi/magi/releases/tag/v0.222.1) | 2026-11-03 |
+| [magi](https://github.com/yukimemi/magi) | [`v0.223.1`](https://github.com/yukimemi/magi/releases/tag/v0.223.1) | 2026-11-07 |
 | [shun](https://github.com/yukimemi/shun) | [`v5.6.4`](https://github.com/yukimemi/shun/releases/tag/v5.6.4) | 2026-11-03 |
 | [hari](https://github.com/yukimemi/hari) | [`v0.2.1`](https://github.com/yukimemi/hari/releases/tag/v0.2.1) | 2026-10-27 |
 | [yaiba](https://github.com/yukimemi/yaiba) | [`v0.30.0`](https://github.com/yukimemi/yaiba/releases/tag/v0.30.0) | 2026-10-26 |
