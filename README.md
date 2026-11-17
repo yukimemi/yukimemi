@@ -49,10 +49,10 @@ Lately: jj-first workflows and tooling for running AI coding agents side by side
 <!-- releases:start -->
 | Repo | Release | Date |
 | --- | --- | --- |
+| [magi](https://github.com/yukimemi/magi) | [`v0.240.0`](https://github.com/yukimemi/magi/releases/tag/v0.240.0) | 2026-11-17 |
 | [omp-deck](https://github.com/yukimemi/omp-deck) | [`v0.15.0`](https://github.com/yukimemi/omp-deck/releases/tag/v0.15.0) | 2026-11-16 |
 | [komorebi-downloads](https://github.com/yukimemi/komorebi-downloads) | [`v0.1.0`](https://github.com/yukimemi/komorebi-downloads/releases/tag/v0.1.0) | 2026-11-15 |
 | [yui](https://github.com/yukimemi/yui) | [`v0.18.2`](https://github.com/yukimemi/yui/releases/tag/v0.18.2) | 2026-11-15 |
-| [magi](https://github.com/yukimemi/magi) | [`v0.238.2`](https://github.com/yukimemi/magi/releases/tag/v0.238.2) | 2026-11-15 |
 | [shikigami](https://github.com/yukimemi/shikigami) | [`v0.19.0`](https://github.com/yukimemi/shikigami/releases/tag/v0.19.0) | 2026-11-14 |
 | [shun](https://github.com/yukimemi/shun) | [`v5.6.6`](https://github.com/yukimemi/shun/releases/tag/v5.6.6) | 2026-11-14 |
 | [hari](https://github.com/yukimemi/hari) | [`v0.2.1`](https://github.com/yukimemi/hari/releases/tag/v0.2.1) | 2026-10-27 |
