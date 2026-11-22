@@ -49,8 +49,8 @@ Lately: jj-first workflows and tooling for running AI coding agents side by side
 <!-- releases:start -->
 | Repo | Release | Date |
 | --- | --- | --- |
-| [mihari](https://github.com/yukimemi/mihari) | [`v0.1.1`](https://github.com/yukimemi/mihari/releases/tag/v0.1.1) | 2026-11-22 |
-| [magi](https://github.com/yukimemi/magi) | [`v0.248.0`](https://github.com/yukimemi/magi/releases/tag/v0.248.0) | 2026-11-22 |
+| [mihari](https://github.com/yukimemi/mihari) | [`v0.1.3`](https://github.com/yukimemi/mihari/releases/tag/v0.1.3) | 2026-11-22 |
+| [magi](https://github.com/yukimemi/magi) | [`v0.248.1`](https://github.com/yukimemi/magi/releases/tag/v0.248.1) | 2026-11-22 |
 | [todoke](https://github.com/yukimemi/todoke) | [`v2.5.0`](https://github.com/yukimemi/todoke/releases/tag/v2.5.0) | 2026-11-22 |
 | [yui](https://github.com/yukimemi/yui) | [`v0.19.0`](https://github.com/yukimemi/yui/releases/tag/v0.19.0) | 2026-11-22 |
 | [shikigami](https://github.com/yukimemi/shikigami) | [`v0.20.0`](https://github.com/yukimemi/shikigami/releases/tag/v0.20.0) | 2026-11-21 |
