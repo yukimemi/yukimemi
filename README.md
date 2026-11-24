@@ -49,14 +49,14 @@ Lately: jj-first workflows and tooling for running AI coding agents side by side
 <!-- releases:start -->
 | Repo | Release | Date |
 | --- | --- | --- |
-| [magi](https://github.com/yukimemi/magi) | [`v0.249.0`](https://github.com/yukimemi/magi/releases/tag/v0.249.0) | 2026-11-23 |
-| [shikigami](https://github.com/yukimemi/shikigami) | [`v0.21.0`](https://github.com/yukimemi/shikigami/releases/tag/v0.21.0) | 2026-11-23 |
+| [magi](https://github.com/yukimemi/magi) | [`v0.254.0`](https://github.com/yukimemi/magi/releases/tag/v0.254.0) | 2026-11-24 |
+| [teravars](https://github.com/yukimemi/teravars) | [`v0.3.0`](https://github.com/yukimemi/teravars/releases/tag/v0.3.0) | 2026-11-24 |
+| [shikigami](https://github.com/yukimemi/shikigami) | [`v0.23.0`](https://github.com/yukimemi/shikigami/releases/tag/v0.23.0) | 2026-11-24 |
 | [yui](https://github.com/yukimemi/yui) | [`v0.20.0`](https://github.com/yukimemi/yui/releases/tag/v0.20.0) | 2026-11-23 |
 | [mihari](https://github.com/yukimemi/mihari) | [`v0.3.0`](https://github.com/yukimemi/mihari/releases/tag/v0.3.0) | 2026-11-23 |
 | [todoke](https://github.com/yukimemi/todoke) | [`v2.5.0`](https://github.com/yukimemi/todoke/releases/tag/v2.5.0) | 2026-11-22 |
 | [omp-deck](https://github.com/yukimemi/omp-deck) | [`v0.15.0`](https://github.com/yukimemi/omp-deck/releases/tag/v0.15.0) | 2026-11-16 |
 | [komorebi-downloads](https://github.com/yukimemi/komorebi-downloads) | [`v0.1.0`](https://github.com/yukimemi/komorebi-downloads/releases/tag/v0.1.0) | 2026-11-15 |
-| [shun](https://github.com/yukimemi/shun) | [`v5.6.6`](https://github.com/yukimemi/shun/releases/tag/v5.6.6) | 2026-11-14 |
 <!-- releases:end -->
 
 ### 🐍 Activity
